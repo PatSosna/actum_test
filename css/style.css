@@ -1,0 +1,43 @@
+body {
+    padding-top: 61px;
+}
+
+.navbar {
+    background: #373142;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.navbar-brand svg {
+    height: 35px;
+    fill: #ffffff;
+}
+
+.main {
+    min-height: calc(100vh - 110px);
+    padding: 1rem 0;
+}
+
+.footer {
+    background: #222222;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 0.8rem;
+}
+
+.alert {
+    position: fixed;
+    top: 61px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+.with-errors {
+    color: rgb(158, 4, 32);
+    float: right;
+    font-weight: 700;
+    font-size: 0.65em;
+    line-height: 1px;
+    margin-top: 1.5em;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ACTUM test</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><svg version="1.1" x="0px" y="0px" viewBox="0 0 761 143.3"
+                        xml:space="preserve">
+                        <g>
+                            <path d="M62.4,60.2v-0.6c4.2-1,7.5-3.3,10.1-6.8c2.6-3.5,3.8-7.8,3.8-12.8c0-7.6-2.9-13.2-8.8-16.8c-5.9-3.6-14.8-5.4-26.9-5.4h-31
+                       v88.9h34.6c10.5,0,18.7-2.3,24.8-7c6.1-4.6,9.1-11,9.1-19.1c0-5.4-1.2-9.9-3.7-13.3C71.9,64.1,67.9,61.6,62.4,60.2z M33.6,36h6.8
+                       c7.5,0,11.3,2.5,11.3,7.5c0,2.8-0.9,4.9-2.8,6.3c-1.9,1.4-4.6,2.1-8,2.1h-7.2V36z M42.1,88.2h-8.5V69.5h8c3.8,0,6.7,0.8,8.7,2.4
+                       c2,1.6,3,3.9,3,6.8C53.4,85,49.6,88.2,42.1,88.2z" />
+                            <path d="M197.3,17.5l-28.5,87.8L143.9,68c10.1-5.6,15.1-13.6,15.1-23.9c0-17.5-12.1-26.3-36.3-26.3H93.6v88.9h24V74.4h6.1
+                       l18.9,32.4h25.7h1.5h24.9l4.5-16.7h28.9l4.4,16.7h26.3l-29.4-89.3H197.3z M122.1,56.3h-4.5V36h4.7c8.2,0,12.3,3.1,12.3,9.2
+                       C134.7,52.6,130.5,56.3,122.1,56.3z M204.2,70.4c3.7-14,6.1-23.3,7.1-28c1.1-4.7,1.8-8.2,2.2-10.2c0.4,2.2,1.2,5.9,2.5,11.1
+                       c1.3,5.2,2.4,9.3,3.3,12.6l3.8,14.6H204.2z" />
+                            <path d="M331.6,58c0,5.4,0.3,12.6,0.9,21.6h-0.4l-32.4-61.8h-31.4v88.9h21.3V66.7c0-5.2-0.4-12.7-1.2-22.6h0.5l32.5,62.7H353V17.8
+                       h-21.4V58z" />
+                            <path d="M436.1,28.8c-7.8-7.3-18.8-11-33.1-11h-30.8v88.9H401c14.8,0,26.3-4,34.5-12c8.2-8,12.3-19.5,12.3-34.3
+                       C447.8,46.6,443.9,36.1,436.1,28.8z M417.7,80.7c-3.4,4.2-8.8,6.4-16.1,6.4h-5.4V37.2h7c6.6,0,11.5,2,14.7,5.9
+                       c3.2,3.9,4.8,10,4.8,18.1C422.8,70,421.1,76.5,417.7,80.7z" />
+                            <rect x="494.7" y="12.1" width="23.8" height="94.7" />
+                            <path d="M584.5,40.9c-5.2-2.9-11.2-4.3-17.9-4.3c-11,0-19.5,3.1-25.5,9.3c-6.1,6.2-9.1,15-9.1,26.2c0,11,3.1,19.7,9.3,26.2
+                       c6.2,6.4,14.5,9.7,25,9.7c10.9,0,19.4-3.2,25.5-9.5c6.1-6.3,9.1-15.1,9.1-26.4c0-7.2-1.4-13.5-4.2-18.8
+                       C593.7,47.9,589.7,43.8,584.5,40.9z M574.3,85.7c-1.5,3.1-4.1,4.7-7.8,4.7c-3.7,0-6.4-1.6-8-4.7c-1.6-3.1-2.4-7.6-2.4-13.5
+                       c0-5.9,0.8-10.4,2.4-13.4s4.2-4.5,7.8-4.5c3.7,0,6.4,1.5,7.9,4.5c1.5,3,2.3,7.4,2.3,13.3C576.5,78.1,575.8,82.6,574.3,85.7z" />
+                            <path d="M648.5,37c-3.1-0.3-5.3-0.4-6.5-0.4c-9.5,0-16.8,2.1-21.9,6.2s-7.7,10-7.7,17.5c0,4.8,1,8.9,3.1,12.3
+                       c2,3.4,4.9,5.8,8.4,7.4c-3.7,2.3-6.2,4.2-7.4,5.9c-1.2,1.6-1.8,3.5-1.8,5.7c0,1.9,0.8,3.9,2.3,5.9c1.6,2,3.4,3.4,5.5,4.3
+                       c-10.2,2.4-15.3,7.7-15.3,15.9c0,6.1,2.6,10.8,7.9,14.1c5.3,3.3,12.8,4.9,22.6,4.9c12.9,0,23-2.3,30.1-7
+                       c7.2-4.7,10.7-11.2,10.7-19.6c0-13-7.7-19.5-23.2-19.5h-11.4c-3.1,0-5.6-0.3-7.5-0.9c-1.9-0.6-2.9-1.5-2.9-2.7c0-0.9,0.3-1.9,0.9-3
+                       c1.5,0.3,3.5,0.5,6.1,0.5c10.3,0,18.1-2,23.3-6.1c5.2-4.1,7.8-9.9,7.8-17.3c0-3.1-0.6-5.9-1.9-8.2l9.4-3.5V37.8h-24
+                       C653.9,37.6,651.6,37.3,648.5,37z M636.5,109.1h9.3c3.9,0,7,0.4,9.1,1.1c2.1,0.8,3.2,2,3.2,3.9c0,2.3-1.7,4.1-5.2,5.6
+                       c-3.5,1.4-8.1,2.2-13.8,2.2c-3.5,0-6.3-0.6-8.5-1.8c-2.1-1.2-3.2-2.8-3.2-4.7c0-1.7,0.9-3.2,2.6-4.4
+                       C631.8,109.7,634,109.1,636.5,109.1z M647.5,68.4c-1.2,1.7-3,2.6-5.3,2.6c-4.9,0-7.4-3.5-7.4-10.6c0-7.1,2.5-10.6,7.4-10.6
+                       c4.7,0,7.1,3.6,7.1,10.7C649.4,64,648.8,66.6,647.5,68.4z" />
+                            <path d="M751.4,53.3c-2.8-5.4-6.8-9.5-12-12.4c-5.2-2.9-11.2-4.3-17.9-4.3c-11,0-19.5,3.1-25.5,9.3c-6.1,6.2-9.1,15-9.1,26.2
+                       c0,11,3.1,19.7,9.3,26.2c6.2,6.4,14.5,9.7,25,9.7c10.9,0,19.4-3.2,25.5-9.5c6.1-6.3,9.1-15.1,9.1-26.4
+                       C755.7,65,754.2,58.7,751.4,53.3z M729.2,85.7c-1.5,3.1-4.1,4.7-7.8,4.7c-3.7,0-6.4-1.6-8-4.7c-1.6-3.1-2.4-7.6-2.4-13.5
+                       c0-5.9,0.8-10.4,2.4-13.4s4.2-4.5,7.8-4.5c3.7,0,6.4,1.5,7.9,4.5c1.5,3,2.3,7.4,2.3,13.3C731.4,78.1,730.7,82.6,729.2,85.7z" />
+                        </g>
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse"
+                    aria-controls="navCollapse"">
+                <span class=" navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="page.html">Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <h1>Lorem ipsum dolor sit</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Proin pede metus,
+                vulputate nec, fermentum fringilla, vehicula vitae, justo. Vestibulum erat nulla, ullamcorper nec,
+                rutrum non, nonummy ac, erat. Integer lacinia. Ut tempus purus at lorem. Integer in sapien. Mauris
+                tincidunt sem sed arcu. Praesent vitae arcu tempor neque lacinia pretium. Etiam ligula pede, sagittis
+                quis, interdum ultricies, scelerisque eu. Praesent id justo in neque elementum ultrices. Duis
+                condimentum augue id magna semper rutrum. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus
+                quam ultricies odio, vitae placerat pede sem sit amet enim. Maecenas lorem.</p>
+
+            <p>Quisque porta. Fusce tellus. Fusce aliquam vestibulum ipsum. Nullam eget nisl. Praesent in mauris eu
+                tortor porttitor accumsan. Nam sed tellus id magna elementum tincidunt. Maecenas fermentum, sem in
+                pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Aenean fermentum
+                risus id tortor. Vivamus ac leo pretium faucibus. Proin pede metus, vulputate nec, fermentum fringilla,
+                vehicula vitae, justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Aliquam erat volutpat. Fusce wisi. Cras elementum. Integer in sapien. Morbi leo mi, nonummy eget
+                tristique non, rhoncus non leo. Vivamus ac leo pretium faucibus. Cras pede libero, dapibus nec, pretium
+                sit amet, tempor quis. Curabitur sagittis hendrerit ante. Nullam sit amet magna in magna gravida
+                vehicula.</p>
+
+            <p>Donec vitae arcu. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio,
+                vitae placerat pede sem sit amet enim. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci.
+                Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in
+                lacus. Duis viverra diam non justo. Pellentesque ipsum. Nulla est. Integer vulputate sem a nibh rutrum
+                consequat. Nulla non arcu lacinia neque faucibus fringilla. Etiam posuere lacus quis dolor. Suspendisse
+                sagittis ultrices augue. In rutrum. Curabitur sagittis hendrerit ante. Praesent vitae arcu tempor neque
+                lacinia pretium. Curabitur vitae diam non enim vestibulum interdum. Phasellus rhoncus.</p>
+
+            <p>Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Class aptent taciti sociosqu ad litora
+                torquent per conubia nostra, per inceptos hymenaeos. Donec iaculis gravida nulla. Maecenas libero. Nunc
+                dapibus tortor vel mi dapibus sollicitudin. Quis autem vel eum iure reprehenderit qui in ea voluptate
+                velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                pariatur? In rutrum. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in
+                pharetra metus odio a lectus. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante.
+                Nullam eget nisl.</p>
+            <h2>Ut enim</h2>
+            <p>Integer tempor. Etiam egestas wisi a erat. Et harum quidem rerum facilis est et expedita distinctio.
+                Aenean id metus id velit ullamcorper pulvinar. Duis risus. Fusce consectetuer risus a nunc. Integer
+                lacinia. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+                ut aliquid ex ea commodi consequatur? Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
+                commodo dui eget wisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Proin pede metus,
+                vulputate nec, fermentum fringilla, vehicula vitae, justo. Vestibulum erat nulla, ullamcorper nec,
+                rutrum non, nonummy ac, erat. Integer lacinia. Ut tempus purus at lorem. Integer in sapien. Mauris
+                tincidunt sem sed arcu. Praesent vitae arcu tempor neque lacinia pretium. Etiam ligula pede, sagittis
+                quis, interdum ultricies, scelerisque eu. Praesent id justo in neque elementum ultrices. Duis
+                condimentum augue id magna semper rutrum. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus
+                quam ultricies odio, vitae placerat pede sem sit amet enim. Maecenas lorem.</p>
+
+            <p>Quisque porta. Fusce tellus. Fusce aliquam vestibulum ipsum. Nullam eget nisl. Praesent in mauris eu
+                tortor porttitor accumsan. Nam sed tellus id magna elementum tincidunt. Maecenas fermentum, sem in
+                pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Aenean fermentum
+                risus id tortor. Vivamus ac leo pretium faucibus. Proin pede metus, vulputate nec, fermentum fringilla,
+                vehicula vitae, justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Aliquam erat volutpat. Fusce wisi. Cras elementum. Integer in sapien. Morbi leo mi, nonummy eget
+                tristique non, rhoncus non leo. Vivamus ac leo pretium faucibus. Cras pede libero, dapibus nec, pretium
+                sit amet, tempor quis. Curabitur sagittis hendrerit ante. Nullam sit amet magna in magna gravida
+                vehicula.</p>
+
+            <p>Donec vitae arcu. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio,
+                vitae placerat pede sem sit amet enim. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci.
+                Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in
+                lacus. Duis viverra diam non justo. Pellentesque ipsum. Nulla est. Integer vulputate sem a nibh rutrum
+                consequat. Nulla non arcu lacinia neque faucibus fringilla. Etiam posuere lacus quis dolor. Suspendisse
+                sagittis ultrices augue. In rutrum. Curabitur sagittis hendrerit ante. Praesent vitae arcu tempor neque
+                lacinia pretium. Curabitur vitae diam non enim vestibulum interdum. Phasellus rhoncus.</p>
+
+            <p>Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Class aptent taciti sociosqu ad litora
+                torquent per conubia nostra, per inceptos hymenaeos. Donec iaculis gravida nulla. Maecenas libero. Nunc
+                dapibus tortor vel mi dapibus sollicitudin. Quis autem vel eum iure reprehenderit qui in ea voluptate
+                velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                pariatur? In rutrum. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in
+                pharetra metus odio a lectus. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante.
+                Nullam eget nisl.</p>
+
+            <p>Integer tempor. Etiam egestas wisi a erat. Et harum quidem rerum facilis est et expedita distinctio.
+                Aenean id metus id velit ullamcorper pulvinar. Duis risus. Fusce consectetuer risus a nunc. Integer
+                lacinia. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+                ut aliquid ex ea commodi consequatur? Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
+                commodo dui eget wisi.</p>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span>&COPY; copyright</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
