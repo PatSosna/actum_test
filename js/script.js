@@ -34,7 +34,10 @@ function sendData() {
       .catch(error => {
         showAlert(error.message, 'danger');
       })
-      .then(response => showAlert(response.message, 'success'));
+      .then(response => {
+        showAlert(response.message, 'success');
+        document.getElementById('ContactForm').reset(); /*  reset form */
+      });
   } else {
     showAlert('Something wrong!', 'danger');
   }
